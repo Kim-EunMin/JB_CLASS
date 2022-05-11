@@ -1,0 +1,19 @@
+import turtle as t
+
+
+num_circle = 10      # 원을 10번 그린다.
+radius = 180
+
+t.bgcolor('blue')
+t.color('yellow')
+t.speed(0)
+
+
+
+
+for _ in range(num_circle):      # _ 로 표시한다. ==> (의미없는 변수 사용시 _로 표시)  for문 안에서 쓰이지않기때문
+    t.circle(radius)
+    t.left(360/num_circle)
+
+t.done()
+
