@@ -44,3 +44,9 @@ for book in books:
         recommends.append(book['제목'])
     all_pages += book['쪽수']
     pub_companies.add(book['출판사'])
+
+    
+    
+print('내가 추천하는 책 리스트:', recommends)        # 이런 흐름으로 구현하는 
+print('내가 읽은 책 전체 쪽수:', all_pages)
+print('내가 읽은 책의 출판사 목록:', pub_companies)
