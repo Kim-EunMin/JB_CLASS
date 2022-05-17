@@ -46,3 +46,8 @@ color = 'red' if c_mod ==0 else 'green' if c_mod ==1 else 'blue'
 #     else:
 #         color = 'blue'
 
+
+
+
+#-----------------------------------## for문 한줄로 표현하기-----------------------------------------#
+[col.replace(' ','') for col in cols]   #빈칸을 공백으로 바꿈
