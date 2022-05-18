@@ -48,17 +48,3 @@ shape = 다코야끼.모양
 
 print('{}빵 {}개를 주문하였고, {}원을 지불하였습니다.'.format(shape, order, payment))
 
-
-if change == 0:
-    message = '손님, {wt} 분만 기다려주세요'.format(wt = wait_time)
-elif change>0:
-    message = f'잔돈은 {ch}원 입니다 {wt}분만 기다려주세요'.format(ch = change, wt = wait_time)
-elif change<0:
-    message = '손님, 금액이 {ch} 원 부족합니다.'.format(ch=-change)
-else:
-    message = 'Error'
-
-
-
-
-print(message)
