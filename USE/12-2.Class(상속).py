@@ -32,7 +32,7 @@ class Herbivore(Animal):
 #자식클래스, miniAnimal
 class miniAnimal(Animal):                 #Animal 부모클래스 안에 name 이란 거 있으니 그걸 사용하면 됨.
     def __init__(self, name):             #self.name = name 이라고 안써줘도 된다.
-        Animal.__init__(self, name)       #--->다만, Animal클래스에서 만들어진 생성자를 호출해줘야한다.
+        Animal.__init__(self, name)       #Animal클래스에서 만들어진 생성자 호출
         self.tribe = '작은동물'
     def favoriteFood(self):
         print("나는 다 좋아합니다.")
